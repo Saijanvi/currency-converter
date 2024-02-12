@@ -1,0 +1,136 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #1f025c, #ccc8cb);
+    overflow: hidden;
+}
+.container{
+    margin-right: 20px;
+    background-color: #f6f6f6;
+    width: 470px;
+    height: 360px;
+    padding: 70px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.heading{
+    color: #5114b4;
+    text-align: left;
+    font-size: 2.3rem;
+    position: relative;
+    top: -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rate-container{
+    display: flex;
+    margin-top: -1.5rem;
+    justify-content: space-between; /* Align items at the ends (left and right) */
+    align-items: center;
+}
+
+.rate1{
+    color: rgb(9, 8, 8);
+    margin-right: auto;
+}
+.rate1 p{
+    text-align: left;
+    width: 30px;
+    height: 0px;
+    line-height: 55px;
+    font-weight: bold;
+
+}
+.rate2{
+  margin-left: auto;
+  margin-top: -5px;
+
+
+}
+.rate2 p{
+    margin : 0;
+    text-align: right;
+    width: 305px;
+    height: 0px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.swap{
+    align-self: flex-end;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.options select{
+    padding: 2%;
+    width: 75px;
+    
+}
+.input input{
+    all: unset;
+    display: inline-block;
+    width: 175px;
+    height: 48px;
+    padding: 5px;
+    margin-top: 1rem;
+    background-color: #d0cccf;
+    color: rgb(11, 10, 10);
+    font-size: 1.5rem;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+
+}
+.target{
+    transform: translateX(-5%);
+
+}
+
+.result{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 60px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(13, 12, 12);
+    background-color:  #7264ca;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    line-height: 20px;
+}
+.result:active{
+    background-color: #3521b6; 
+    
+}
+
+.material-icons.swap {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px; /* You can adjust this size as needed */
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
